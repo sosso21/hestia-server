@@ -1,0 +1,38 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "pm2": "^5.1.2"
+  },
+  "name": "back",
+  "version": "1.0.0",
+  "description": "API Hestia",
+  "main": "app.js",
+  "scripts": {
+    "start": "pm2-runtime start ecosystem.config.js --env production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sosso21/hestia-server.git"
+  },
+  "keywords": [
+    "hestia",
+    "node.js",
+    "node",
+    "react",
+    "agency",
+    "scpi"
+  ],
+  "author": "Hermes Dev",
+  "license": "ISC",
+  "engines": {
+    "node": ">=12.x.x <=16.x.x"
+  },
+  "bugs": {
+    "url": "https://github.com/sosso21/hestia-server/issues"
+  },
+  "homepage": "https://github.com/sosso21/hestia-server#readme"
+}
